@@ -7,7 +7,7 @@ Bookstore.Domain.csproj - net48 - No CPM in use, even though the file exists
 Bookstore.Web.csproj - net48 - Single CPM, in-use  
 Bookstore.Cdk.csproj - net6.0 - 3 Level CPM all enabled and in-use  
 Bookstore.Common.csproj - netstandard2.0 - Single CPM, can be utilized for experimentation as this project does NOT require any packages    
-Bookstore.Data.csproj - net48  - Single CPM, in-use  
+Bookstore.Data.csproj - net48  - 2 Level CPM all enabled and in-use  
 
 ## Prerequisites
 To run and debug the application locally you need the following:
