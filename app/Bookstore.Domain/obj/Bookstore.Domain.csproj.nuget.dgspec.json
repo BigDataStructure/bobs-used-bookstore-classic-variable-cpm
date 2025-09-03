@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
+        "projectName": "Bookstore.Domain",
+        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
+        "packagesPath": "/Users/davetop/.nuget/packages/",
+        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davetop/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Amazon.CDK.Lib": {
+              "target": "Package",
+              "version": "(, )",
+              "versionOverride": "[2.214.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/davetop/.dotnet/sdk/8.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

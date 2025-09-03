@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>Bookstore.Data</RootNamespace>
+		<AssemblyName>Bookstore.Data</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.Core" />
+		<PackageReference Include="AWSSDK.Rekognition" />
+		<PackageReference Include="AWSSDK.S3" />
+		<PackageReference Include="EntityFramework" />
+		<PackageReference Include="Magick.NET-Q8-AnyCPU" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Bookstore.Domain\Bookstore.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="System.Configuration" />
+	</ItemGroup>
+</Project>

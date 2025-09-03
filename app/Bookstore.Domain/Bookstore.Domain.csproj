@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>Bookstore.Domain</RootNamespace>
+		<AssemblyName>Bookstore.Domain</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="System.ComponentModel.DataAnnotations" />
+	</ItemGroup>
+</Project>
