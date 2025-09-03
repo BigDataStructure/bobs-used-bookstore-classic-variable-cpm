@@ -6,7 +6,7 @@ Bob's Used Books Classic is a backport of the [Bob's Used Books Sample Applicati
 Bookstore.Domain.csproj - net48 - No CPM in use, even though the file exists  
 Bookstore.Web.csproj - net48 - Single CPM, in-use  
 Bookstore.Cdk.csproj - net6.0 - 3 Level CPM all enabled and in-use  
-Bookstore.Common.csproj - netstandard2.0 - No CPM, file does not exist, can be utilized for experimentation and testing of version conflict errors  
+Bookstore.Common.csproj - netstandard2.0 - Single CPM, can be utilized for experimentation as this project does NOT require any packages    
 Bookstore.Data.csproj - net48  - Single CPM, in-use  
 
 ## Prerequisites
