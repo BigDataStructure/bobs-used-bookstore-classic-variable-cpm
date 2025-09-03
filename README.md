@@ -1,12 +1,13 @@
 # Bob's Used Books Classic
 
 ## Overview
-Bob's Used Books Classic is a backport of the [Bob's Used Books Sample Application](https://github.com/aws-samples/bobs-used-bookstore-sample). Bob's Used Books Classic is an ASP.NET MVC application that targets .NET Framework 4.8.
-Bookstore.Domain.csproj - net48
-Bookstore.Web.csproj - net48
-Bookstore.Cdk.csproj - net6.0
-Bookstore.Common.csproj - netstandard2.0
-Bookstore.Data.csproj - net48
+Bob's Used Books Classic is a backport of the [Bob's Used Books Sample Application](https://github.com/aws-samples/bobs-used-bookstore-sample). Bob's Used Books Classic is an ASP.NET MVC application that targets .NET Framework 4.8.  
+
+Bookstore.Domain.csproj - net48 - No CPM in use, even though the file exists
+Bookstore.Web.csproj - net48 - Single CPM, in-use
+Bookstore.Cdk.csproj - net6.0 - 3 Level CPM all enabled and in-use
+Bookstore.Common.csproj - netstandard2.0 - No CPM, file does not exist, can be utilized for experimentation and testing of version conflict errors  
+Bookstore.Data.csproj - net48  - Single CPM, in-use
 
 ## Prerequisites
 To run and debug the application locally you need the following:
