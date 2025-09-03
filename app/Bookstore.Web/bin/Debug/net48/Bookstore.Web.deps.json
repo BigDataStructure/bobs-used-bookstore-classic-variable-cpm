@@ -524,6 +524,9 @@
         }
       },
       "Bookstore.Common/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Rekognition": "3.7.400.129"
+        },
         "compile": {
           "Bookstore.Common.dll": {}
         }
@@ -941,6 +944,9 @@
         }
       },
       "Bookstore.Common/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Rekognition": "3.7.400.129"
+        },
         "runtime": {
           "Bookstore.Common.dll": {
             "assemblyVersion": "1.0.0",

@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "D4v6/vNlSd4=",
-  "success": false,
+  "dgSpecHash": "Q+RULBBOHrU=",
+  "success": true,
   "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
   "expectedPackageFiles": [
-    "/Users/davetop/.nuget/packages/amazon.cdk.lib/2.214.0/amazon.cdk.lib.2.214.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/awssdk.core/3.7.402.35/awssdk.core.3.7.402.35.nupkg.sha512",
     "/Users/davetop/.nuget/packages/awssdk.rekognition/3.7.400.129/awssdk.rekognition.3.7.400.129.nupkg.sha512",
     "/Users/davetop/.nuget/packages/awssdk.s3/3.7.416.5/awssdk.s3.3.7.416.5.nupkg.sha512",
@@ -111,15 +110,6 @@
       "warningLevel": 1,
       "message": "Package 'Magick.NET-Q8-AnyCPU' 14.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-vmhh-8rxq-fp9g",
       "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Amazon.CDK.Lib 2.214.0 is not compatible with net48 (.NETFramework,Version=v4.8). Package Amazon.CDK.Lib 2.214.0 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
-      "libraryId": "Amazon.CDK.Lib",
       "targetGraphs": [
         ".NETFramework,Version=v4.8"
       ]

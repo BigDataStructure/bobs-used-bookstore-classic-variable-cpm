@@ -43,11 +43,6 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
-            "Amazon.CDK.Lib": {
-              "target": "Package",
-              "version": "(, )",
-              "versionOverride": "[2.214.0, )"
-            },
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",

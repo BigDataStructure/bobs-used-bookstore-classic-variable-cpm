@@ -42,3 +42,5 @@
 /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Cdk/obj/Debug/net6.0/Bookstore.Cdk.genruntimeconfig.cache
 /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Cdk/obj/Debug/net6.0/ref/Bookstore.Cdk.dll
 /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Cdk/bin/Debug/net6.0/Cdklabs.CdkNag.dll
+/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Cdk/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Cdk/bin/Debug/net6.0/AWSSDK.Rekognition.dll

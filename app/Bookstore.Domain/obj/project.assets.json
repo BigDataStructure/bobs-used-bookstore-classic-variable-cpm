@@ -2,9 +2,6 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "Amazon.CDK.Lib/2.0.0": {
-        "type": "package"
-      },
       "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
         "type": "package",
         "dependencies": {
@@ -20,19 +17,6 @@
     }
   },
   "libraries": {
-    "Amazon.CDK.Lib/2.0.0": {
-      "sha512": "YXKCKn7wBachuVx5na2xZ70SPRvWSlX1I6/nv4nYo+6IdRjfL6arfkvVrg40UJrRpHtWZ9clU3+i6swSr5au+Q==",
-      "type": "package",
-      "path": "amazon.cdk.lib/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "amazon.cdk.lib.2.0.0.nupkg.sha512",
-        "amazon.cdk.lib.nuspec",
-        "lib/netcoreapp3.1/Amazon.CDK.Lib.dll",
-        "lib/netcoreapp3.1/Amazon.CDK.Lib.xml"
-      ]
-    },
     "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
       "sha512": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
       "type": "package",
@@ -427,7 +411,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "Amazon.CDK.Lib",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3"
     ]
   },
@@ -473,11 +456,6 @@
       "net48": {
         "targetAlias": "net48",
         "dependencies": {
-          "Amazon.CDK.Lib": {
-            "target": "Package",
-            "version": "(, )",
-            "versionOverride": "[2.214.0, )"
-          },
           "Microsoft.NETFramework.ReferenceAssemblies": {
             "suppressParent": "All",
             "target": "Package",
@@ -488,26 +466,5 @@
         "runtimeIdentifierGraphPath": "/Users/davetop/.dotnet/sdk/8.0.406/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Amazon.CDK.Lib does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Amazon.CDK.Lib 2.0.0 is not compatible with net48 (.NETFramework,Version=v4.8). Package Amazon.CDK.Lib 2.0.0 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    }
-  ]
+  }
 }

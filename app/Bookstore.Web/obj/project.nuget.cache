@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "N/uxDX50EV0=",
-  "success": false,
+  "dgSpecHash": "Rb76ABl/8Bk=",
+  "success": true,
   "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Web/Bookstore.Web.csproj",
   "expectedPackageFiles": [
-    "/Users/davetop/.nuget/packages/amazon.cdk.lib/2.214.0/amazon.cdk.lib.2.214.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/antlr/3.4.1.9004/antlr.3.4.1.9004.nupkg.sha512",
     "/Users/davetop/.nuget/packages/autofac/8.2.1/autofac.8.2.1.nupkg.sha512",
     "/Users/davetop/.nuget/packages/autofac.mvc5/6.1.0/autofac.mvc5.6.1.0.nupkg.sha512",
@@ -50,15 +49,5 @@
     "/Users/davetop/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/davetop/.nuget/packages/webgrease/1.5.2/webgrease.1.5.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Amazon.CDK.Lib 2.214.0 is not compatible with net48 (.NETFramework,Version=v4.8). Package Amazon.CDK.Lib 2.214.0 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    }
-  ]
+  "logs": []
 }

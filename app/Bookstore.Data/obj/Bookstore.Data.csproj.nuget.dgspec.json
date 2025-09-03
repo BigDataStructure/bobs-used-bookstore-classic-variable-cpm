@@ -63,11 +63,6 @@
               "version": "[3.7.416.5, )",
               "versionCentrallyManaged": true
             },
-            "Amazon.CDK.Lib": {
-              "target": "Package",
-              "version": "[2.214.0, )",
-              "versionOverride": "[2.214.0, )"
-            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.5.1, )",
@@ -158,11 +153,6 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
-            "Amazon.CDK.Lib": {
-              "target": "Package",
-              "version": "(, )",
-              "versionOverride": "[2.214.0, )"
-            },
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",

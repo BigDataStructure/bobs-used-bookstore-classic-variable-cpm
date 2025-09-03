@@ -1,32 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pORMJaMF4yY=",
-  "success": false,
+  "dgSpecHash": "kGLKgfL6BiE=",
+  "success": true,
   "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/davetop/.nuget/packages/amazon.cdk.lib/2.0.0/amazon.cdk.lib.2.0.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/Users/davetop/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Amazon.CDK.Lib does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Amazon.CDK.Lib 2.0.0 is not compatible with net48 (.NETFramework,Version=v4.8). Package Amazon.CDK.Lib 2.0.0 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    }
-  ]
+  "logs": []
 }

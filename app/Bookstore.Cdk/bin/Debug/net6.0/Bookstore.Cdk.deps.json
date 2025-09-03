@@ -79,6 +79,25 @@
           }
         }
       },
+      "AWSSDK.Core/3.7.402.35": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.35"
+          }
+        }
+      },
+      "AWSSDK.Rekognition/3.7.400.129": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.35"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.129"
+          }
+        }
+      },
       "Cdklabs.CdkNag/2.35.66": {
         "dependencies": {
           "Amazon.CDK.Lib": "2.188.0",
@@ -337,6 +356,9 @@
       },
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "Bookstore.Common/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Rekognition": "3.7.400.129"
+        },
         "runtime": {
           "Bookstore.Common.dll": {
             "assemblyVersion": "1.0.0",
@@ -386,6 +408,20 @@
       "sha512": "sha512-M9GVimEmG1ZDqt5MoF0NWYpXtiL7gzp1xCdHhdP8/opdcgLuJZutyf4j0ZCMVrRXTA3N3hPO3IyboLAzrnNLRw==",
       "path": "amazon.jsii.runtime/1.111.0",
       "hashPath": "amazon.jsii.runtime.1.111.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.402.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Jby5BBQTzZOqzQiFjJyr3zCe5GVi64U8gxOlPk3vTTuVJqtkisBJ0Jh1RBj2fNqnWmJLfaWSCLvX1L06zwHnQ==",
+      "path": "awssdk.core/3.7.402.35",
+      "hashPath": "awssdk.core.3.7.402.35.nupkg.sha512"
+    },
+    "AWSSDK.Rekognition/3.7.400.129": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hYqhagY5X8J8RXolMhiIbF8YGcmGFroAjFKK+ehq3eTmZimGawDMoxCqbqZZCuyh+20cv2S4UHDha/HdBn3HzA==",
+      "path": "awssdk.rekognition/3.7.400.129",
+      "hashPath": "awssdk.rekognition.3.7.400.129.nupkg.sha512"
     },
     "Cdklabs.CdkNag/2.35.66": {
       "type": "package",

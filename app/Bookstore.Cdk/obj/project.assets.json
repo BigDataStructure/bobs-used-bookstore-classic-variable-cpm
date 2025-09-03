@@ -2,10 +2,61 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Amazon.CDK.Lib/2.0.0": {
+      "Amazon.CDK.Asset.AwsCliV1/2.2.229": {
         "type": "package",
         "dependencies": {
-          "Amazon.JSII.Runtime": "[1.46.0, 2.0.0)",
+          "Amazon.JSII.Runtime": "[1.110.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.CDK.Asset.AwsCliV1.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.CDK.Asset.AwsCliV1.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.CDK.Asset.NodeProxyAgentV6/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.JSII.Runtime": "[1.103.1, 2.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.CDK.Asset.NodeProxyAgentV6.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.CDK.Asset.NodeProxyAgentV6.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.CDK.CloudAssembly.Schema/41.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.JSII.Runtime": "[1.108.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.CDK.CloudAssembly.Schema.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.CDK.CloudAssembly.Schema.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.CDK.Lib/2.188.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.CDK.Asset.AwsCliV1": "[2.2.229, 3.0.0)",
+          "Amazon.CDK.Asset.NodeProxyAgentV6": "[2.1.0, 3.0.0)",
+          "Amazon.CDK.CloudAssembly.Schema": "[41.0.0, 42.0.0)",
+          "Amazon.JSII.Runtime": "[1.110.0, 2.0.0)",
           "Constructs": "[10.0.0, 11.0.0)"
         },
         "compile": {
@@ -32,6 +83,35 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Amazon.JSII.Runtime.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.35": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Rekognition/3.7.400.129": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.402.35, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Cdklabs.CdkNag/2.35.66": {
@@ -504,7 +584,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Amazon.CDK.Lib": "2.214.0"
+          "AWSSDK.Rekognition": "3.7.400.129"
         },
         "compile": {
           "bin/placeholder/Bookstore.Common.dll": {}
@@ -516,17 +596,58 @@
     }
   },
   "libraries": {
-    "Amazon.CDK.Lib/2.0.0": {
-      "sha512": "YXKCKn7wBachuVx5na2xZ70SPRvWSlX1I6/nv4nYo+6IdRjfL6arfkvVrg40UJrRpHtWZ9clU3+i6swSr5au+Q==",
+    "Amazon.CDK.Asset.AwsCliV1/2.2.229": {
+      "sha512": "Ii4F9hUJ9ZRQonjtyPjJJVIYZz0nEuaiT0zo+HFeQEOQi5Z2YjJj0ssXcfglvLhLqX9d37wHJ6VEMFcQ+YKlwg==",
       "type": "package",
-      "path": "amazon.cdk.lib/2.0.0",
+      "path": "amazon.cdk.asset.awscliv1/2.2.229",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "amazon.cdk.lib.2.0.0.nupkg.sha512",
+        "amazon.cdk.asset.awscliv1.2.2.229.nupkg.sha512",
+        "amazon.cdk.asset.awscliv1.nuspec",
+        "lib/netcoreapp3.1/Amazon.CDK.Asset.AwsCliV1.dll",
+        "lib/netcoreapp3.1/Amazon.CDK.Asset.AwsCliV1.xml"
+      ]
+    },
+    "Amazon.CDK.Asset.NodeProxyAgentV6/2.1.0": {
+      "sha512": "t98TzqXewTtK4inteeSs8LNFUiKjyVN/Ug0jROx/KefRtNHM7pjLhxJ1pht1Pp/RtSPFK8qSzS092ZRRwyUqmg==",
+      "type": "package",
+      "path": "amazon.cdk.asset.nodeproxyagentv6/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.asset.nodeproxyagentv6.2.1.0.nupkg.sha512",
+        "amazon.cdk.asset.nodeproxyagentv6.nuspec",
+        "lib/netcoreapp3.1/Amazon.CDK.Asset.NodeProxyAgentV6.dll",
+        "lib/netcoreapp3.1/Amazon.CDK.Asset.NodeProxyAgentV6.xml"
+      ]
+    },
+    "Amazon.CDK.CloudAssembly.Schema/41.0.0": {
+      "sha512": "Pt25J5SGWIARhgoFBoBqNpKWAKIVhkQUl/Sx5S4ua+jvn6+JCdpDfL+4huy875kFYV4QF7ciaSQoYX9vnBtlxA==",
+      "type": "package",
+      "path": "amazon.cdk.cloudassembly.schema/41.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.cloudassembly.schema.41.0.0.nupkg.sha512",
+        "amazon.cdk.cloudassembly.schema.nuspec",
+        "lib/netcoreapp3.1/Amazon.CDK.CloudAssembly.Schema.dll",
+        "lib/netcoreapp3.1/Amazon.CDK.CloudAssembly.Schema.xml",
+        "resources/default-256-dark.png"
+      ]
+    },
+    "Amazon.CDK.Lib/2.188.0": {
+      "sha512": "7rvFTBBpGHfjbhVTNiOiyn4Ua87tDredI9IKNcC+KL9awzHT59NqPIGqiLvFOONnC0Lok6tlm2hxftHhARMD/w==",
+      "type": "package",
+      "path": "amazon.cdk.lib/2.188.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.lib.2.188.0.nupkg.sha512",
         "amazon.cdk.lib.nuspec",
         "lib/netcoreapp3.1/Amazon.CDK.Lib.dll",
-        "lib/netcoreapp3.1/Amazon.CDK.Lib.xml"
+        "lib/netcoreapp3.1/Amazon.CDK.Lib.xml",
+        "resources/default-256-dark.png"
       ]
     },
     "Amazon.JSII.Runtime/1.111.0": {
@@ -540,6 +661,67 @@
         "amazon.jsii.runtime.nuspec",
         "icon.png",
         "lib/netcoreapp3.1/Amazon.JSII.Runtime.dll"
+      ]
+    },
+    "AWSSDK.Core/3.7.402.35": {
+      "sha512": "9Jby5BBQTzZOqzQiFjJyr3zCe5GVi64U8gxOlPk3vTTuVJqtkisBJ0Jh1RBj2fNqnWmJLfaWSCLvX1L06zwHnQ==",
+      "type": "package",
+      "path": "awssdk.core/3.7.402.35",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.402.35.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Rekognition/3.7.400.129": {
+      "sha512": "hYqhagY5X8J8RXolMhiIbF8YGcmGFroAjFKK+ehq3eTmZimGawDMoxCqbqZZCuyh+20cv2S4UHDha/HdBn3HzA==",
+      "type": "package",
+      "path": "awssdk.rekognition/3.7.400.129",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Rekognition.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.rekognition.3.7.400.129.nupkg.sha512",
+        "awssdk.rekognition.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Rekognition.dll",
+        "lib/net35/AWSSDK.Rekognition.pdb",
+        "lib/net35/AWSSDK.Rekognition.xml",
+        "lib/net45/AWSSDK.Rekognition.dll",
+        "lib/net45/AWSSDK.Rekognition.pdb",
+        "lib/net45/AWSSDK.Rekognition.xml",
+        "lib/net8.0/AWSSDK.Rekognition.dll",
+        "lib/net8.0/AWSSDK.Rekognition.pdb",
+        "lib/net8.0/AWSSDK.Rekognition.xml",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.dll",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.xml",
+        "lib/netstandard2.0/AWSSDK.Rekognition.dll",
+        "lib/netstandard2.0/AWSSDK.Rekognition.pdb",
+        "lib/netstandard2.0/AWSSDK.Rekognition.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Cdklabs.CdkNag/2.35.66": {
@@ -1413,7 +1595,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Amazon.CDK.Lib",
+      "Amazon.CDK.Lib >= 2.188.0",
       "Bookstore.Common >= 1.0.0",
       "Cdklabs.CdkNag >= 2.35.66",
       "Constructs >= 10.4.2"
@@ -1467,8 +1649,7 @@
         "dependencies": {
           "Amazon.CDK.Lib": {
             "target": "Package",
-            "version": "(, )",
-            "versionOverride": "[2.214.0, )"
+            "version": "[2.188.0, )"
           },
           "Cdklabs.CdkNag": {
             "target": "Package",
@@ -1498,17 +1679,5 @@
         "runtimeIdentifierGraphPath": "/Users/davetop/.dotnet/sdk/8.0.406/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Amazon.CDK.Lib does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v6.0"
-      ]
-    }
-  ]
+  }
 }

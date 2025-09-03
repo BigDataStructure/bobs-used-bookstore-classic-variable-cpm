@@ -2,9 +2,6 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "Amazon.CDK.Lib/2.214.0": {
-        "type": "package"
-      },
       "AWSSDK.Core/3.7.402.35": {
         "type": "package",
         "compile": {
@@ -157,9 +154,6 @@
       "Bookstore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.8",
-        "dependencies": {
-          "Amazon.CDK.Lib": "(, )"
-        },
         "compile": {
           "bin/placeholder/Bookstore.Domain.dll": {}
         },
@@ -170,20 +164,6 @@
     }
   },
   "libraries": {
-    "Amazon.CDK.Lib/2.214.0": {
-      "sha512": "Z9PRiFYGDbZSerPJit1H4ZXdM+pAaAkhAzmBVSFzCRVXVK1A5rd8QWeCDtwKG9B7Pk+u4p9qLhgrGZyRAvSI1g==",
-      "type": "package",
-      "path": "amazon.cdk.lib/2.214.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "amazon.cdk.lib.2.214.0.nupkg.sha512",
-        "amazon.cdk.lib.nuspec",
-        "lib/netcoreapp3.1/Amazon.CDK.Lib.dll",
-        "lib/netcoreapp3.1/Amazon.CDK.Lib.xml",
-        "resources/default-256-dark.png"
-      ]
-    },
     "AWSSDK.Core/3.7.402.35": {
       "sha512": "9Jby5BBQTzZOqzQiFjJyr3zCe5GVi64U8gxOlPk3vTTuVJqtkisBJ0Jh1RBj2fNqnWmJLfaWSCLvX1L06zwHnQ==",
       "type": "package",
@@ -790,7 +770,6 @@
       "AWSSDK.Core >= 3.7.402.35",
       "AWSSDK.Rekognition >= 3.7.400.129",
       "AWSSDK.S3 >= 3.7.416.5",
-      "Amazon.CDK.Lib >= 2.214.0",
       "Bookstore.Domain >= 1.0.0",
       "EntityFramework >= 6.5.1",
       "Magick.NET-Q8-AnyCPU >= 14.6.0",
@@ -858,11 +837,6 @@
             "target": "Package",
             "version": "[3.7.416.5, )",
             "versionCentrallyManaged": true
-          },
-          "Amazon.CDK.Lib": {
-            "target": "Package",
-            "version": "[2.214.0, )",
-            "versionOverride": "[2.214.0, )"
           },
           "EntityFramework": {
             "target": "Package",
@@ -1012,15 +986,6 @@
       "warningLevel": 1,
       "message": "Package 'Magick.NET-Q8-AnyCPU' 14.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-vmhh-8rxq-fp9g",
       "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Amazon.CDK.Lib 2.214.0 is not compatible with net48 (.NETFramework,Version=v4.8). Package Amazon.CDK.Lib 2.214.0 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
-      "libraryId": "Amazon.CDK.Lib",
       "targetGraphs": [
         ".NETFramework,Version=v4.8"
       ]

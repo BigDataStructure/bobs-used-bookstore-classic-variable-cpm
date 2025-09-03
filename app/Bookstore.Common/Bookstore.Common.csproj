@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+    <ItemGroup>
+        <!-- CDK Construct Library dependencies -->
+        <PackageReference Include="AWSSDK.Rekognition" />
+
+    </ItemGroup>
+
 </Project>

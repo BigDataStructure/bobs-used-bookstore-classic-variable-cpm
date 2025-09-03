@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "vxtwJnqK4v0=",
+  "dgSpecHash": "ANO0ODQuzUo=",
   "success": true,
   "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Cdk/Bookstore.Cdk.csproj",
   "expectedPackageFiles": [
-    "/Users/davetop/.nuget/packages/amazon.cdk.lib/2.0.0/amazon.cdk.lib.2.0.0.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/amazon.cdk.asset.awscliv1/2.2.229/amazon.cdk.asset.awscliv1.2.2.229.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/amazon.cdk.asset.nodeproxyagentv6/2.1.0/amazon.cdk.asset.nodeproxyagentv6.2.1.0.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/amazon.cdk.cloudassembly.schema/41.0.0/amazon.cdk.cloudassembly.schema.41.0.0.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/amazon.cdk.lib/2.188.0/amazon.cdk.lib.2.188.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/amazon.jsii.runtime/1.111.0/amazon.jsii.runtime.1.111.0.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/awssdk.core/3.7.402.35/awssdk.core.3.7.402.35.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/awssdk.rekognition/3.7.400.129/awssdk.rekognition.3.7.400.129.nupkg.sha512",
     "/Users/davetop/.nuget/packages/cdklabs.cdknag/2.35.66/cdklabs.cdknag.2.35.66.nupkg.sha512",
     "/Users/davetop/.nuget/packages/constructs/10.4.2/constructs.10.4.2.nupkg.sha512",
     "/Users/davetop/.nuget/packages/microsoft.bcl.asyncinterfaces/9.0.1/microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
@@ -32,16 +37,5 @@
     "/Users/davetop/.nuget/packages/system.text.json/9.0.1/system.text.json.9.0.1.nupkg.sha512",
     "/Users/davetop/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Amazon.CDK.Lib does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

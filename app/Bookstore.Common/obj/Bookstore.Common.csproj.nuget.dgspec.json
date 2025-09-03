@@ -44,10 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "Amazon.CDK.Lib": {
+            "AWSSDK.Rekognition": {
               "target": "Package",
-              "version": "[2.214.0, )",
-              "versionOverride": "[2.214.0, )"
+              "version": "[3.7.400.129, )",
+              "versionCentrallyManaged": true
             },
             "NETStandard.Library": {
               "suppressParent": "All",

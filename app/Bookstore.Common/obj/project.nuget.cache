@@ -1,22 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "OScTGbYbwFI=",
-  "success": false,
+  "dgSpecHash": "T1l8/JDXwGA=",
+  "success": true,
   "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Common/Bookstore.Common.csproj",
   "expectedPackageFiles": [
-    "/Users/davetop/.nuget/packages/amazon.cdk.lib/2.214.0/amazon.cdk.lib.2.214.0.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/awssdk.core/3.7.402.35/awssdk.core.3.7.402.35.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/awssdk.rekognition/3.7.400.129/awssdk.rekognition.3.7.400.129.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/davetop/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/davetop/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Amazon.CDK.Lib 2.214.0 is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Package Amazon.CDK.Lib 2.214.0 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
-      "libraryId": "Amazon.CDK.Lib",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }
