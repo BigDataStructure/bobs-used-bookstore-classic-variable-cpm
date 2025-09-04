@@ -1,5 +1,5 @@
 is_global = true
 build_property.RootNamespace = Bookstore.Domain
-build_property.ProjectDir = /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/
+build_property.ProjectDir = /Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

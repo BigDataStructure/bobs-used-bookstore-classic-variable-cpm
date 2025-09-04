@@ -420,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
+      "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
       "projectName": "Bookstore.Domain",
-      "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
+      "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
       "packagesPath": "/Users/davetop/.nuget/packages/",
-      "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/obj/",
+      "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/davetop/.nuget/NuGet/NuGet.Config"

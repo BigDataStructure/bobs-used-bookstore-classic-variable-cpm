@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Common/Bookstore.Common.csproj": {}
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Common/Bookstore.Common.csproj": {}
   },
   "projects": {
-    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Common/Bookstore.Common.csproj": {
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Common/Bookstore.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Common/Bookstore.Common.csproj",
+        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Common/Bookstore.Common.csproj",
         "projectName": "Bookstore.Common",
-        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Common/Bookstore.Common.csproj",
+        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Common/Bookstore.Common.csproj",
         "packagesPath": "/Users/davetop/.nuget/packages/",
-        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Common/obj/",
+        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Common/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -54,6 +54,13 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Serilog": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.0, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -84,7 +91,8 @@
             "Microsoft.Owin.Security.OpenIdConnect": "4.2.2",
             "Newtonsoft.Json": "13.0.3",
             "NLog": "5.4.0",
-            "Owin": "1.0"
+            "Owin": "1.0",
+            "Serilog": "2.8.0"
           },
           "imports": [
             "net461",

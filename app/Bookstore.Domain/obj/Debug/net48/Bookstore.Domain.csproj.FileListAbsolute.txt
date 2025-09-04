@@ -5,3 +5,10 @@
 /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.sourcelink.json
 /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.dll
 /Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.pdb
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/bin/Debug/net48/Bookstore.Domain.dll
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/bin/Debug/net48/Bookstore.Domain.pdb
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.csproj.CoreCompileInputs.cache
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.sourcelink.json
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.dll
+/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/Debug/net48/Bookstore.Domain.pdb

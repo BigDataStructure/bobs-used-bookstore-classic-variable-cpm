@@ -151,6 +151,24 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net48.targets": {}
         }
       },
+      "Serilog/2.8.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net46/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Serilog.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Bookstore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.8",
@@ -759,6 +777,32 @@
         "microsoft.netframework.referenceassemblies.net48.nuspec"
       ]
     },
+    "Serilog/2.8.0": {
+      "sha512": "zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
+      "type": "package",
+      "path": "serilog/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.pdb",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.pdb",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.pdb",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.pdb",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.pdb",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.2.8.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
     "Bookstore.Domain/1.0.0": {
       "type": "project",
       "path": "../Bookstore.Domain/Bookstore.Domain.csproj",
@@ -773,7 +817,8 @@
       "Bookstore.Domain >= 1.0.0",
       "EntityFramework >= 6.5.1",
       "Magick.NET-Q8-AnyCPU >= 14.6.0",
-      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3"
+      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
+      "Serilog >= 2.8.0"
     ]
   },
   "packageFolders": {
@@ -782,11 +827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
+      "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
       "projectName": "Bookstore.Data",
-      "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
+      "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
       "packagesPath": "/Users/davetop/.nuget/packages/",
-      "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/obj/",
+      "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
@@ -802,8 +847,8 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
-              "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj"
+            "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
+              "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj"
             }
           }
         }
@@ -853,6 +898,13 @@
             "target": "Package",
             "version": "[1.0.3, )",
             "autoReferenced": true
+          },
+          "Serilog": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.8.0, )",
+            "versionCentrallyManaged": true
           }
         },
         "centralPackageVersions": {
@@ -883,7 +935,8 @@
           "Microsoft.Owin.Security.OpenIdConnect": "4.2.2",
           "Newtonsoft.Json": "13.0.3",
           "NLog": "5.4.0",
-          "Owin": "1.0"
+          "Owin": "1.0",
+          "Serilog": "2.8.0"
         },
         "runtimeIdentifierGraphPath": "/Users/davetop/.dotnet/sdk/8.0.406/RuntimeIdentifierGraph.json"
       }

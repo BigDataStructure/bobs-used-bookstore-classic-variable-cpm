@@ -14,6 +14,7 @@ namespace Bookstore.Web
             ConfigurationSetup.ConfigureConfiguration();
 
             DependencyInjectionSetup.ConfigureDependencyInjection(app);
+            
 
             AuthenticationConfig.ConfigureAuthentication(app);
         }

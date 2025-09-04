@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Amazon.CDK.Lib" Version="2.188.0" />
@@ -31,5 +31,6 @@
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="NLog" Version="5.4.0" />
     <PackageVersion Include="Owin" Version="1.0" />
+      <GlobalPackageReference Include="Serilog" Version="2.8.0" />
   </ItemGroup>
 </Project>

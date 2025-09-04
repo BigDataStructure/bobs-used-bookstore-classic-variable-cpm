@@ -5,6 +5,5 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Amazon.CDK.Lib" />
   </ItemGroup>
 </Project>

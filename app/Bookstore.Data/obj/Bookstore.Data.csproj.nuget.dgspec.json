@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj": {}
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj": {}
   },
   "projects": {
-    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj": {
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
+        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
         "projectName": "Bookstore.Data",
-        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
+        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
         "packagesPath": "/Users/davetop/.nuget/packages/",
-        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/obj/",
+        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -27,8 +27,8 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
-                "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj"
+              "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
+                "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj"
               }
             }
           }
@@ -78,6 +78,13 @@
               "target": "Package",
               "version": "[1.0.3, )",
               "autoReferenced": true
+            },
+            "Serilog": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.0, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -108,20 +115,21 @@
             "Microsoft.Owin.Security.OpenIdConnect": "4.2.2",
             "Newtonsoft.Json": "13.0.3",
             "NLog": "5.4.0",
-            "Owin": "1.0"
+            "Owin": "1.0",
+            "Serilog": "2.8.0"
           },
           "runtimeIdentifierGraphPath": "/Users/davetop/.dotnet/sdk/8.0.406/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
+    "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
+        "projectUniqueName": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
         "projectName": "Bookstore.Domain",
-        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
+        "projectPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/Bookstore.Domain.csproj",
         "packagesPath": "/Users/davetop/.nuget/packages/",
-        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Domain/obj/",
+        "outputPath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/davetop/.nuget/NuGet/NuGet.Config"

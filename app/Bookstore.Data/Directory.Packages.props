@@ -4,6 +4,5 @@
     <TargetFramework>net1.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Amazon.CDK.Lib" />
   </ItemGroup>
 </Project>

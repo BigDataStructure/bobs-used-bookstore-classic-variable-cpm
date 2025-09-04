@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+RULBBOHrU=",
+  "dgSpecHash": "/Hxm7xPsbrE=",
   "success": true,
-  "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
+  "projectFilePath": "/Users/davetop/Downloads/bobs-used-bookstore-classic-variable-cpm/app/Bookstore.Data/Bookstore.Data.csproj",
   "expectedPackageFiles": [
     "/Users/davetop/.nuget/packages/awssdk.core/3.7.402.35/awssdk.core.3.7.402.35.nupkg.sha512",
     "/Users/davetop/.nuget/packages/awssdk.rekognition/3.7.400.129/awssdk.rekognition.3.7.400.129.nupkg.sha512",
@@ -11,7 +11,8 @@
     "/Users/davetop/.nuget/packages/magick.net-q8-anycpu/14.6.0/magick.net-q8-anycpu.14.6.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/magick.net.core/14.6.0/magick.net.core.14.6.0.nupkg.sha512",
     "/Users/davetop/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "/Users/davetop/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+    "/Users/davetop/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "/Users/davetop/.nuget/packages/serilog/2.8.0/serilog.2.8.0.nupkg.sha512"
   ],
   "logs": [
     {
